@@ -1,0 +1,5 @@
+#x = (input("Wie ist dein Name?:"))
+#print("Hallo", x)
+euro = float(input("Wieviel € sollen umgerechnet werden?:"))
+dollar = round(euro*1.09, 2)
+print("Der Wechselkurs beträgt", dollar, "$")
